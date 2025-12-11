@@ -1,9 +1,9 @@
 {
-    "url": "https://raw.githubusercontent.com/risytprem58/test/main/test.yaml",
-    "urls": [
-        {
-            "url": "https://raw.githubusercontent.com/risytprem58/test/main/test.yaml",
-            "name": "Test"
-        }
-    ]
+  "url": "https://raw.githubusercontent.com/risytprem58/test/main/test.yaml",
+  "urls": [
+    {
+      "url": "https://raw.githubusercontent.com/risytprem58/test/main/test.yaml",
+      "name": "Test"
+    }
+  ]
 }
