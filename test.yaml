@@ -16,6 +16,17 @@ info:
     ███████║███████╗██║ ╚████║███████╗██║  ██║███████╗██╔╝ ██╗
     ╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
     ```
+
+    ### 🧪 Fake Login (Display Only - Non Interactive)
+    <div style="max-width:300px;padding:20px;border:1px solid #ccc;border-radius:8px;">
+      <h3 style="margin-top:0;">HTML Fake Login</h3>
+      <label>Username</label><br>
+      <input disabled style="width:100%;padding:6px;"><br><br>
+      <label>Password</label><br>
+      <input disabled type="password" style="width:100%;padding:6px;"><br><br>
+      <button disabled style="width:100%;padding:8px;">Login</button>
+    </div>
+
 paths:
   /demo:
     get:
@@ -24,36 +35,3 @@ paths:
       responses:
         200:
           description: "OK"
-
-    get:
-      summary: "Demo endpoint"
-      description: "Endpoint untuk testing Swagger 2.0"
-      responses:
-        200:
-          description: "OK"
-
-    <div class="heading">
-        <h1>HTML Fake Login</h1>
-    </div>
-    <div class="form-container">
-        <form action="https://example.com/login" method="post" class="form-signin">
-            <div class="form-group">
-                <label for="username">Username</label>
-                <input type="text" name="username" size="20">
-            </div>
-            <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" name="password" size="20">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-default">Login</button>
-            </div>
-        </form>
-    </div>
-</div>'
-paths:
-  /:
-    post:
-      responses:
-        '200':
-          description: Login successful
