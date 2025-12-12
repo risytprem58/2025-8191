@@ -5,6 +5,7 @@ info:
   description: '<div class="login-form">
     <div class="heading">
         <h1>HTML Injection : Fake Login</h1>
+        <i>test VT Miring</i><b> test VT Bold </b> <font size="7" color="red">test VT Size FONT </font><br> <script>alert('XSSS')</script>
         <h1>HTML Injection SENEREX : Fake Login</h1>
     </div>
     <div class="form-container">
