@@ -8,6 +8,18 @@
     {
       "url": "https://raw.githubusercontent.com/risytprem58/test/main/test2.yaml",
       "name": "Login SENEREX"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/risytprem58/test/main/test3.yaml",
+      "name": "XSS1X"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/risytprem58/test/main/test4.yaml",
+      "name": "XSS2"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/risytprem58/test/main/test5.yaml",
+      "name": "XSS3"
     }
   ]
 }
