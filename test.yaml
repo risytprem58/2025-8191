@@ -2,9 +2,8 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Fake Login Page
-  description: '<div class="login-form">
-    <div class="heading">
-     ```
+  description: 
+   ```
     ███████╗███████╗███╗   ██╗███████╗██████╗ ███████╗██╗  ██╗
     ██╔════╝██╔════╝████╗  ██║██╔════╝██╔══██╗██╔════╝╚██╗██╔╝
     ███████╗█████╗  ██╔██╗ ██║█████╗  ██████╔╝█████╗   ╚███╔╝ 
@@ -12,7 +11,10 @@ info:
     ███████║███████╗██║ ╚████║███████╗██║  ██║███████╗██╔╝ ██╗
     ╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
     ```
-        <h1>HTML Injection : Fake Loginn</h1>
+  '<div class="login-form">
+    <div class="heading">
+
+        <h1>HTML Injection : Fake Loginnn</h1>
         <h1>HTML Injection SENEREX : Fake Login</h1>
     </div>
     <div class="form-container">
