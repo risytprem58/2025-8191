@@ -1,0 +1,21 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "Popup Dev Test (Safe)"
+  description: |
+    <h2>Popup Test</h2>
+
+    <button onclick="document.getElementById('popup').showModal()">Open Popup</button>
+
+    <dialog id="popup">
+      <h3>Hello from Dev Popup!</h3>
+      <p>Ini popup aman tanpa XSS.</p>
+      <button onclick="document.getElementById('popup').close()">Close</button>
+    </dialog>
+
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: OK
