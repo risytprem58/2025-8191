@@ -24,7 +24,7 @@ info:
     <div><script>alert(1)</script></div>
     <div class="modal-bg">
       <div class="modal-box">
-        <h3>Popup Aman</h3>
+        <h3>Popup Amann</h3>
         <p>Ini popup untuk testing dev tanpa XSS.</p>
         <label for="show" style="cursor:pointer;">Close</label>
       </div>
