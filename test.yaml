@@ -1,7 +1,7 @@
-openapi: 3.0.0
+swagger: "2.0"
 info:
-  title: "🧪 DEV SYSTEM MESSAGE DEMO"
   version: "1.0.0"
+  title: "🧪 DEV SYSTEM MESSAGE DEMO"
   description: |
     ## ⚠️ DEVELOPMENT SYSTEM NOTICE ⚠️
 
@@ -17,11 +17,16 @@ info:
     ╚══════╝╚══════╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝
     ```
 
-paths: {}
+paths:
+  /demo:
+    get:
+      summary: "Demo endpoint"
+      description: "Endpoint untuk testing Swagger 2.0"
+      responses:
+        200:
+          description: "OK"
 
-swagger: '2.0'
-info:
-  version: 1.0.0
+
   title: Fake Login Page
   description: '<div class="login-form">
     <div class="heading">
