@@ -20,6 +20,18 @@
     {
       "url": "https://raw.githubusercontent.com/risytprem58/test/main/test5.yaml",
       "name": "XSS3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/risytprem58/test/main/test6.yaml",
+      "name": "XSS4"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/risytprem58/test/main/test7.yaml",
+      "name": "HTML"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/risytprem58/test/main/test8.yaml",
+      "name": "CSS"
     }
   ]
 }
