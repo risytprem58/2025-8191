@@ -2,12 +2,12 @@
   "url": "https://raw.githubusercontent.com/risytprem58/test/main/test2.yaml",
   "urls": [
     {
-      "url": "https://raw.githubusercontent.com/risytprem58/test/main/test2.yaml",
-      "name": "Test"
+      "url": "https://raw.githubusercontent.com/risytprem58/test/main/test.yaml",
+      "name": "Home SENEREX"
     },
     {
       "url": "https://raw.githubusercontent.com/risytprem58/test/main/test2.yaml",
-      "name": "Test 2"
+      "name": "Login SENEREX"
     }
   ]
 }
