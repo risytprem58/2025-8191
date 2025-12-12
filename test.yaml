@@ -25,11 +25,6 @@ paths:
         200:
           description: "OK"
 
-swagger: "2.0"
-info:
-  version: "1.0.0"
-paths:
-  /demo:
     get:
       summary: "Demo endpoint"
       description: "Endpoint untuk testing Swagger 2.0"
@@ -37,9 +32,6 @@ paths:
         200:
           description: "OK"
 
-
-  title: Fake Login Page
-  description: '<div class="login-form">
     <div class="heading">
         <h1>HTML Fake Login</h1>
     </div>
