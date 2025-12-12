@@ -1,0 +1,19 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "XSS Payload Display (Safe Mode)"
+  description: |
+    ### Example XSS Payload (not executed, just display)
+
+    ```
+    <form><math><mtext></form><form><mglyph><svg><mtext><textarea><path id="</textarea><img onerror=alert('textarea') src=1>"></form>
+    ```
+
+paths:
+  /:
+    get:
+      summary: "XSS Test"
+      description: "This path is for testing how the system handles HTML/JS payloads."
+      responses:
+        200:
+          description: "Payload displayed safely"
